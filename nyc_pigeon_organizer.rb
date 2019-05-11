@@ -9,7 +9,9 @@ def nyc_pigeon_organizer(data)
   end
   data.each do |category, attribute_list|
     attribute_list.each do |attribute, names|
-      binding.pry
+      names.each do |name|
+        
+      end
     end
   end
 end
