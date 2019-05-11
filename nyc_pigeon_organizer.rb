@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
     end
   end
   data.each do |category, attribute_list|
-    attribute_list.each do |attribute|
+    attribute_list.each do |attribute, names|
       binding.pry
     end
   end
