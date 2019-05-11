@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
   data.each do |category, attribute_list|
     attribute_list.each do |attribute, names|
       names.each do |name|
-        
+        pigeon_list[name].key?(attribute) ? pigeon_list[name][attribute] 
       end
     end
   end
