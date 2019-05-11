@@ -13,13 +13,13 @@ def nyc_pigeon_organizer(data)
         if data[category][attribute].include?(name)
           pigeon_list[name].key?(category) ? pigeon_list[name][category] << attribute.to_s : pigeon_list[name][category] = [attribute.to_s]
         end
-        binding.pry
       end
     end
   end
+  pigeon_list
 end
 
-nyc_pigeon_organizer(pigeon_data = {
+#nyc_pigeon_organizer(pigeon_data = {
   :color => {
     :purple => ["Theo", "Peter Jr.", "Lucky"],
     :grey => ["Theo", "Peter Jr.", "Ms. K"],
