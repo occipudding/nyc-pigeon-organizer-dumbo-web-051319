@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
     attribute_list.each do |attribute, names|
       names.each do |name|
         binding.pry
-        pigeon_list[name].key?(category) ? pigeon_list[name][category] 
+        pigeon_list[name].key?(category) ? pigeon_list[name][category] << attribute
       end
     end
   end
