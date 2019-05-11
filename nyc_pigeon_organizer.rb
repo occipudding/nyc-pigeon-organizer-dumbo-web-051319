@@ -7,10 +7,10 @@ def nyc_pigeon_organizer(data)
       pigeon_list[name] = {}
     end
   end
-  binding.pry
+  
 end
 
-nyc_pigeon_organizer(pigeon_data = {
+#nyc_pigeon_organizer(pigeon_data = {
   :color => {
     :purple => ["Theo", "Peter Jr.", "Lucky"],
     :grey => ["Theo", "Peter Jr.", "Ms. K"],
