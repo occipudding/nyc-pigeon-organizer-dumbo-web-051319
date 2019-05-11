@@ -7,7 +7,11 @@ def nyc_pigeon_organizer(data)
       pigeon_list[name] = {}
     end
   end
-  
+  data.each do |category, attribute_list|
+    attribute_list.each do |attribute|
+      binding.pry
+    end
+  end
 end
 
 #nyc_pigeon_organizer(pigeon_data = {
